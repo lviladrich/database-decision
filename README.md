@@ -1,4 +1,4 @@
-# 🗄️ database-decision
+#  database-decision
 
 **Stop coding. Start deciding.**
 
