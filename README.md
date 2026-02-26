@@ -16,6 +16,28 @@ This is a **meta-skill** — it runs before other database skills. While skills 
 - "I need a database for..." followed by any use case
 - Building e-commerce, IoT, social, analytics, or real-time systems
 
+## Usage
+
+Skills are automatically available once installed. The agent will use them when relevant tasks are detected.
+
+Examples:
+
+```
+Which database should I use for my e-commerce app?
+```
+
+```
+I'm building a social network, help me set up the database
+```
+
+```
+MongoDB or PostgreSQL for a real-time IoT system?
+```
+
+```
+I need to store user data, sessions, and analytics
+```
+
 ## Categories covered:
 
 | Type | Technologies | Best For |
@@ -68,12 +90,25 @@ Built from the curriculum of **Ingeniería de Datos II** (Data Engineering II), 
 
 ## Skill Structure
 
-```
-database-decision/
-├── SKILL.md     - Decision framework for the agent (139 lines)
-├── README.md    - This file
-└── banner.svg   - Visual diagram
-```
+Each skill contains:
+
+- `SKILL.md` - Instructions and decision framework for the agent
+- `README.md` - Documentation (this file)
+- `README.es.md` - Documentation in Spanish
+- `banner.svg` - Visual diagram of the decision flow
+
+## Compatibility
+
+Works with any agent that supports [Agent Skills](https://skills.sh):
+
+- [Claude Code](https://claude.com/product/claude-code)
+- [Cursor](https://cursor.sh)
+- [Windsurf](https://codeium.com/windsurf)
+- [Codex](https://openai.com/codex)
+- [GitHub Copilot](https://github.com/features/copilot)
+- [Gemini CLI](https://gemini.google.com)
+- [VS Code](https://code.visualstudio.com)
+- And [30+ more agents](https://skills.sh)
 
 ## License
 
